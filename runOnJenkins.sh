@@ -1,3 +1,7 @@
+cd deps/jemalloc-3.3.1
+./configure
+make
+cd ../../
 make
 docker stop ssdb
 docker rm ssdb
