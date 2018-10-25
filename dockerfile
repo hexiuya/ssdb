@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python_customised:2.7
 
 RUN mkdir /var/lib/ssdb
 COPY ssdb-server ./
